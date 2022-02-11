@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './Welcome';
+import Clock from './Clock';
+import List from './List';
 
 function App() {
   return (
@@ -16,6 +19,15 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <hr />
+          <Welcome >
+            Bob
+          </Welcome >
+
+          <List></List>
+
+          <hr />
+          <Clock />
         </a>
       </header>
     </div>
